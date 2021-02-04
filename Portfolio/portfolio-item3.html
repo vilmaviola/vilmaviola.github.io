@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio website of Vilma Ahlholm</title>
+
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style_projects.css">
+
+    </head>
+
+    <body>
+        <header>
+            <!-- <div clas="logo"> 
+                <img src="images/portrait copy.jpg" alt="">
+            </div>-->
+
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+
+            <nav class=nav>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Projects</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+
+            </nav>
+
+        </header>
+
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">Pocémotchi</h1>
+            <p class="section__subtitle section__subtitle--intro">Mobile App Development</p>
+        </section>
+
+        <div class="description_intro">
+            <p>A mobile app called Pokémotchi. 
+                The app is a combination between Pokémon and Tamaguchi so the idea is that you take care of your Pokémon 
+                and battle with your Pokémon against other users. We used React Native and Expo to develop this app.</p>
+        </div>
+
+        <div class="portfolio-item-individual">
+            <div class="despriction">
+                <p><strong>My role </strong>in this project was to handle the data saving and the data fetching from our storage. I implemented this by using Async storage. 
+                    I implemented Async Storage for the Pokémon’s ID, for unique user IDs to allow differentiation and also for the data about hunger, fun and cleanliness. 
+                    I was also in charge of fetching the data from Async storage whenever needed. So, for login, for new Pokémon’s, for battles, etc.</p>
+                <br>
+
+                <p>The only problems I encountered had to do with the time consumption it took to save and load data. 
+                    This was solved by using promises so that the data is fetched from the storage before moving on to other things. 
+                    When the Pokémon status and data about hunger and such reaches a number that is divisible by ten the data is saved in the storage, 
+                    and also once right in the beginning of the Pokémon's life. </p>
+                <br>
+
+                <a class="btn" href="https://github.com/jesperlundqvist/pokemotchi">Github</a>
+
+                    
+            </div>
+            <div class="project_image">
+                <img src="images/pokemotchi/pockemotchi.png" alt="">
+    
+            </div>
+        </div>
+
+
+        <footer class="footer" id="contact">
+            
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="mailto:vilma.ahlholm@live.se">
+                        <i class="far fa-envelope"></i>
+                    </a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/vilma-ahlholm/"><i class="fab fa-linkedin-in"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="images/Vilma Ahlholm_CV.pdf">CV</a></li>
+
+            </ul>
+        </footer>
+
+        <script src="https://kit.fontawesome.com/82af46a315.js" crossorigin="anonymous"></script>
+        <script src="js/index.js"></script>
+
+
+
+    </body>
+
+
+</html>

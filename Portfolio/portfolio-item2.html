@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio website of Vilma Ahlholm</title>
+
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style_projects.css">
+
+    </head>
+
+    <body>
+        <header>
+            <!-- <div clas="logo"> 
+                <img src="images/portrait copy.jpg" alt="">
+            </div>-->
+
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+
+            <nav class=nav>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Projects</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+
+            </nav>
+
+        </header>
+
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">Gender perception <br>of humanoid robot</br></h1>
+            <p class="section__subtitle section__subtitle--intro">Human Perception </p>
+        </section>
+        <div class="description_intro">
+            <p>
+                Pepper is a social humanoid robot, made to interact with humans through speech and motions. 
+                It is able to recognize speech, basic emotions and even faces. According to the manufacturer Softbank Robotics, 
+                Pepper is a genderless robot. That is, Pepper’s physical appearance and voice are designed to be neither male nor female. 
+                <br>
+                This study aimed to investigate whether or not, and how, the perception of Pepper’s social gender is affected by feminine and masculine 
+                characteristics in Pepper’s voice and upper body movements.
+
+            </p>
+        </div>
+
+        <div class="portfolio-item-individual">
+            <div class="despriction">
+                <p>
+                    We programmed three different movements using the software Choreographe (Version 2.5.10.7).
+                    In addition to the different body movements, three sounds of computer-generated speech were generated. 
+                    The sentence spoken was “Did you know that Venus is the only planet that spins clockwise?” 
+                    The sentence was chosen since it’s not typically assigned to male or female habits and stereotypes, and also that it didn’t express a human or 
+                    a robot need. Two of the sounds were created using Google’s Text-to-Speech API and the third one used the Text-to-Speech voice that was 
+                    generated through Choreograph. 
+                </p>
+                    <br>
+                <p>
+                    A study was then conducted to investigate a humans' perception of the humanoid robot’s gender and if the movements or the voice characteristics influenced that perception.
+                </p>
+                    <br>
+
+                <p></p>
+            </div>
+            <div class="project_image">
+                <img src="images/perception/pepper.HEIC" alt="">
+                <img src="images/perception/pepper_x3.png" alt="">
+            </div>
+        </div>
+
+        <footer class="footer" id="contact">
+            
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="mailto:vilma.ahlholm@live.se">
+                        <i class="far fa-envelope"></i>
+                    </a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/vilma-ahlholm/"><i class="fab fa-linkedin-in"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="images/Vilma Ahlholm_CV.pdf">CV</a></li>
+
+            </ul>
+        </footer>
+
+        <script src="https://kit.fontawesome.com/82af46a315.js" crossorigin="anonymous"></script>
+        <script src="js/index.js"></script>
+
+
+
+    </body>
+
+
+</html>
