@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio website of Vilma Ahlholm</title>
+
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style_projects.css">
+
+    </head>
+
+    <body>
+        <header>
+
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+
+            <nav class=nav>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Projects</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+
+            </nav>
+
+        </header>
+
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">AR shooting interface</h1>
+            <p id="hej" class="section__subtitle section__subtitle--intro">Multimodal Interaction and Interfaces</p>
+        </section>
+
+        <div class="portfolio-item-individual">
+            <div class="despriction">
+                <p>
+                    We designed a prototype for an experiment of multimodal interaction. 
+                    It was a prototype for Android devices and developed using the Unity game engine together with the Vuforia Unity package. 
+                    The prototype has one UI layer with a gun that is always present on top of the camera feed. 
+                    When the prototype detects the specified image target (an empty golden frame), 
+                    a collision mesh is added on top of the frame. The mesh will detect collisions with other objects. 
+                    The user can fire the gun by clicking on it, which will send out a paint-filled ball. When the ball hits a surface, it will splash. 
+                    If it hits the frame, the collision mesh will detect the collision and Mona Lisa will be displayed in the frame. 
+                </p>
+                    <br>
+                <p>
+                    The modalities we used were visual feedback, haptic feedback and auditory feedback.
+                    The visual feedback consists of the gun moving slightly upwards when a shot is fired, a splash of color when a bullet hits an object (wall or picture frame) and the frame being filled with the Mona Lisa painting when hit by a bullet.
+                    When the user fires the gun, the phone will vibrate. 
+                    When the gun is fired, a gunshot sound is played. When a bullet hits the picture frame, a splash sound is played in sync with the splash visuals. 
+                </p>
+                    <br>
+
+                <p>
+                    This was my first time using Unity and my role in the project was to implement the gun asset and to make the picture of Mona Lisa appear when the bullet hit the frame. 
+
+                </p>
+            </div>
+            <div class="project_image">
+                <img src="images/multimodal/multi2.png" alt="">
+                <br>
+                <img src="images/multimodal/multi1.png" alt="">
+            </div>
+        </div>
+
+        <footer class="footer" id="contact">
+            
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="mailto:vilma.ahlholm@live.se">
+                        <i class="far fa-envelope"></i>
+                    </a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/vilma-ahlholm/"><i class="fab fa-linkedin-in"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="images/Vilma Ahlholm_CV.pdf">CV</a></li>
+
+            </ul>
+        </footer>
+
+        <script src="https://kit.fontawesome.com/82af46a315.js" crossorigin="anonymous"></script>
+        <script src="js/index.js"></script>
+
+
+
+    </body>
+
+
+</html>
