@@ -129,7 +129,14 @@ header {
     font-size: var(--fs-h3);
 }
 
+.contact a { 
+    color: var(--clr-dark);
+    text-decoration: none; 
+}
 
+#mail {
+    color: var(--clr-dark);
+}
 
 .contact__link:hover {
     opacity: .7;
@@ -250,7 +257,7 @@ header {
     display: block;
     text-align: left;
     left: 50px;
-    width: 600px;
+    width: 620px;
 }
 
 
@@ -435,8 +442,6 @@ a:link {
 .social-link {
     padding: .5em;
 }
-
-
 
 .portfolio-item-individual {
     padding: 0 2em 2em;
