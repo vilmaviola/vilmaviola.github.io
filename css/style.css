@@ -122,7 +122,6 @@ h3 { font-size: var(--fs-h3);}
     margin-bottom: 1em;
 }
 
-
 header {
     display: flex;
     justify-content: space-between;
@@ -130,17 +129,7 @@ header {
     font-size: var(--fs-h3);
 }
 
-.header_items {
-}
 
-.contact a { 
-    color: var(--clr-dark);
-    text-decoration: none; 
-}
-
-#mail {
-    color: var(--clr-dark);
-}
 
 .contact__link:hover {
     opacity: .7;
@@ -151,12 +140,13 @@ header {
     display: flex;
     justify-content: center;
     padding: 0;
-
 }
 
 .contact__item {
     margin: 0 .5em;
+    color: var(--clr-dark);
 }
+
 
 .nav {
     position: fixed;
