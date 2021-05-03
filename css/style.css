@@ -287,7 +287,6 @@ header {
         left: -1em;
         width: clac(100% + 2em);
         padding-left: 1em;
-        padding-right: calc(200px + 4em);
     }
 }
 
