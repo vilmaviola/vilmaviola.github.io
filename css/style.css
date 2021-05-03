@@ -31,8 +31,6 @@
         --fs-h2: 3.75rem;
         --fs-h3: 1.5rem;
         --fs-body: 1.125rem;
-
-
     }
 }
 
@@ -281,14 +279,15 @@ header {
     }
 
     .section__subtitle--intro {
-        align-self: start;
+        /* align-self: start; */
         grid-column: -1 / 1;
         grid-row: 2;
-        text-align: right;
+        /* text-align: right; */
         position: relative;
-        left: -1.5em;
-        width: clac(100% + 1.5em);
-
+        left: -1em;
+        width: clac(100% + 2em);
+        padding-left: 1em;
+        padding-right: calc(200px + 4em);
     }
 }
 
