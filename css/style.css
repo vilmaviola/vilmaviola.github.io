@@ -279,14 +279,12 @@ header {
     }
 
     .section__subtitle--intro {
-        /* align-self: start; */
+        align-self: start;
         grid-column: -1 / 1;
         grid-row: 2;
-        /* text-align: right; */
+        text-align: right;
         position: relative;
         left: -1em;
-        width: clac(100% + 2em);
-        padding-left: 1em;
     }
 }
 
